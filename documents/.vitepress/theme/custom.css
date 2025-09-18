@@ -1,0 +1,27 @@
+/* documents/.vitepress/theme/custom.css */
+
+/* 
+  Override the default font family for the entire site.
+  We place 'Vazirmatn' first. The browser will go down the list
+  until it finds a font it has. 'sans-serif' is the ultimate fallback.
+*/
+:root {
+  --vp-font-family-base: 'Vazirmatn', sans-serif;
+  --vp-font-family-mono: 'Vazirmatn', monospace;
+}
+
+/* 
+  Additionally, target specific elements to ensure the font applies
+  everywhere, especially if components have their own specific font rules.
+*/
+body, button, input, select, textarea {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.aside {
+  display: none !important;
+}
+
+.content-container {
+min-width: 95% !important;
+}
