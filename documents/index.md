@@ -9,4 +9,4 @@ hero:
   actions:
     - theme: brand
       text: شروع کنید
-      link: /شروع
+      link: /1.%20شروع.html

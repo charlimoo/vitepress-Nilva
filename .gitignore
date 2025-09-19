@@ -2,3 +2,4 @@
 /docmaker
 /node_modules
 /package-lock.json
+/documents/.vitepress/cache
